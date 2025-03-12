@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+.almacen-equipos {
+    display: flex;
+    flex-wrap: nowrap;  /* chat */
+    gap: 10px;
+    overflow-x: auto;  /* chat */
+    width: 100%;
+    
+}
+
+.tarjeta-equipo {
+    padding: 15px;
+    background-color:white;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    flex: 0 0 auto;  /* chat */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imagen-equipo {
+    width: 100%;
+    height: auto;
+}
+
+.almacen-pilotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.tarjeta-piloto {
+    
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 200px;
+    text-align: center; 
+    position: relative;
+     flex: 0 0 auto; /* chat */
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    background-image: url(pista.jpg);
+    background-size: cover;
+    background-position: default;
+}
+.tarjeta-piloto h3, .tarjeta-piloto p {
+    color: white; 
+    padding: 5px;
+    border-radius: 2px;
+    width: 90%;
+    margin: 3px 0;
+}
+.centrar-tarjeta {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  /* chat */
+    z-index: 10000000;
+    width: 40%; 
+    height: 50%;
+    
+}
+.imagen-piloto {
+    width: 300px;
+    margin: 10px;
+}
+
+
+
+ 
+
+
